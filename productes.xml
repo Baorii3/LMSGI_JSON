@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <!-- Lista de productos -->
+    <producto id="01">
+        <nombre>Ordenador</nombre>
+        <!-- Descripción del producto -->
+        <descripcion>Ordenador molt bo</descripcion>
+        <!-- Precio del producto -->
+        <precio moneda="EUR">1000</precio>
+        <categoria>Electronica</categoria>
+        <!-- Disponibilidad del producto -->
+        <disponibilidad>stock</disponibilidad>
+        <!-- URL de la imagen -->
+        <imagen>https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlk2a0nO5JmWIQJjJ5lWKR53fHoG8XSE1sbbemVLNAtuUTGhYQvVtGOD9-pR9_pYsAxaApGJOoN6HPRKR3jzJQjyGTg09mToaN6pNwsskNJL4Sc11kRNfH</imagen>
+    </producto>
+    <producto id="02">
+        <nombre>Portatil</nombre>
+        <descripcion>Portatil perfecte per a clase</descripcion>
+        <precio moneda="EUR">600</precio>
+        <categoria>Electronica</categoria>
+        <disponibilidad>agotado</disponibilidad>
+        <imagen>https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202306/09/00115215593052____1__1200x1200.jpg</imagen>
+    </producto>
+    <!-- Fin de la lista de productos -->
+</productos>
