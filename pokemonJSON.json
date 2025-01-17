@@ -1,0 +1,76 @@
+{
+    "pokemons":[
+        {
+            "id":1,
+            "nombre":"Bulbasaur",
+            "tipos":["planta", "veneno"],
+            "altura":0.7,
+            "estadisticas":{
+                "velocidad": 3,
+                "fortaleza": 3,
+                "precision": 4,
+                "resistencia": 4
+            },
+            "movimientos":[
+                {
+                    "nombre": "Placaje",
+                    "descripcion": "Placaje causa daño y no tiene ningún efecto secundario",
+                    "potencia": 40,
+                    "contacto": true 
+                },
+                {
+                    "nombre": "Látigo Cepa",
+                    "descripcion": "Látigo cepa causa daño y no tiene ningún efecto secundario.",
+                    "potencia": 45,
+                    "contacto": true
+                }
+            ],
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/300px-Bulbasaur.png",
+            "evoluciones":[
+                {
+                    "id_evolucion": 2,
+                    "nivel_necesario": 16
+                }
+            ]
+        },
+        {
+            "id":1,
+            "nombre":"Pikachu",
+            "tipos":["eléctrico"],
+            "altura":0.4,
+            "estadisticas":{
+                "velocidad": 4,
+                "fortaleza": 4,
+                "precision": 4,
+                "resistencia": 4
+            },
+            "movimientos":[
+                {
+                    "nombre": "Moflete estático",
+                    "descripcion": "Moflete estático causa daño y siempre paraliza al objetivo.",
+                    "potencia": 20,
+                    "contacto": true 
+                },
+                {
+                    "nombre": "Maquinación",
+                    "descripcion": "Látigo cepa causa daño y no tiene ningún efecto secundario.",
+                    "potencia": 0,
+                    "contacto": false
+                }
+            ],
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/300px-Pikachu.png",
+            "evoluciones":[
+                {
+                    "nombre":"Raichu",
+                    "id_evolucion": 1,
+                    "necesario": "Piedra trueno fuera de alola"
+                },
+                {
+                    "nombre":"Raichu de Alola",
+                    "id_evolucion": 2,
+                    "necesario": "Piedra trueno en alola"
+                }
+            ]
+        }
+    ]
+}
